@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(245, 230, 243);
+    text-align: center;
+    font-family: 'Noto Sans', Courier, monospace;
+}
+
+.titulo{
+    margin: 50px;
+    
+}
+
+h1{
+    font-family: 'Kanit', Courier, monospace;
+    font-size: 45px;
+    border-bottom: 2px solid black;
+    
+}
+
+.about{
+    margin: 20px 0px;
+}
+
+.about p{
+    padding: 0px 50px;
+    font-style: italic;
+    text-align: justify;
+}
+.container,.container2{
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    padding: 50px;
+    padding-top: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container img{
+    max-width: 210px;
+    border:2px solid black;
+
+}
+
+.container2 h2{
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.container2 h4,h5,p{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.container2 h5{
+    font-size: 15px;
+
+}
+.container2 p{
+    font-size: 13px;
+
+}
+
+
+.lista li{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+.container2{
+    margin-top: 50px;
+    align-items: stretch;
+}
+
+.tarjetas{
+    border: 1px solid rgb(187, 184, 184);
+    border-radius: 20px;
+    background-color: white;
+    padding: 50px;
+}
+
+footer{
+    margin: 50px 0px;
+    padding-left: 50px;
+}
+
+footer h1,h2{
+    margin-bottom: 15px;
+}
+
+footer h2{
+    text-align: left;
+    padding-left: 50;
+}
+
+footer p{
+    font-size: 15px;
+    font-style: italic;
+    text-align: left;
+    padding: 0px 50px;
+
+}
